@@ -91,6 +91,50 @@
         background-color: #00ffff37;
     }
 
+    /* Khối Hero */
+    .hero{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .hero__content{
+        order: 2;
+    }
+
+    .hero__media{
+        order: 1;
+    }
+
+    .hero__content{
+        width: 80%;
+        text-align: center;
+        margin: 22px auto;
+    }
+
+    .hero__row{
+        justify-content: center;
+    }
+
+    /* Khối Services */
+    .service__row{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .service__img{
+        width: 100%;
+    }
+    
+    .service__list{
+        text-align: center;
+    }
+
+    .service-item{
+        width: 90%;
+        text-align: start;
+    }
+
+
 }
 
 
@@ -106,7 +150,7 @@
 }
 
 /* Tạm ẩn phần k liên quan */
-.hero, .footer, main{
+.footer{
     display: none;
 }
 
